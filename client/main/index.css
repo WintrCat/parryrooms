@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
+
+/* Element centering */
+.center {
+    text-align: center;
+}
+
+/* Background Colour */
+body {
+    background-color: rgb(10, 10, 10);
+}
+
+/* Text font and colour defaults */
+h1, p, span, input[type=text] {
+    font-family: "Fredoka One";
+    color: white;
+}
+
+/* CHAT ROOM */
+#chatRoomArea {
+    display: inline-block;
+    width: 960px;
+    height: 640px;
+    overflow: hidden;
+
+    margin-top: 20px;
+    position: relative;
+    text-align: left;
+
+    border: 2px solid white;
+    border-radius: 10px;
+
+    background-color: rgb(24, 24, 24);
+}
+
+#messagesArea, #membersArea {
+    border: 3px solid rgb(29, 29, 29);
+}
+
+#messagesArea {
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+
+    position: absolute;
+    left: 0px;
+}
+
+#membersArea {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+
+    position: absolute;
+    right: 0px;
+
+    background-color: rgb(26, 26, 26);
+}
+
+#chatBox {
+    display: inline-block;
+    width: 95%;
+    height: 40px;
+    border: none;
+    outline: none;
+
+    margin-top: 5px;
+    position: absolute;
+    left: 9px;
+    bottom: 15px;
+    padding-left: 7px;
+
+    border-radius: 7px;
+    background-color: rgb(37, 37, 37);
+
+    font-family: "Hanken Grotesk";
+    font-size: 20px;
+}
+
+#sendButton {
+    
+}
+
+/* MESSAGES */
+.message {
+    margin: 5px;
+}
